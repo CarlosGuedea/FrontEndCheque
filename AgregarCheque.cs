@@ -151,5 +151,10 @@ namespace controlSistenCheck
                 MessageBox.Show(ex + "Error no se pudo conectar a la base de datos");
             }
         }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -660,24 +660,25 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(324, 429);
+            this.textBox1.Location = new System.Drawing.Point(516, 373);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(479, 64);
+            this.textBox1.Size = new System.Drawing.Size(181, 24);
             this.textBox1.TabIndex = 24;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(324, 411);
+            this.label11.Location = new System.Drawing.Point(527, 355);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(164, 15);
+            this.label11.Size = new System.Drawing.Size(142, 15);
             this.label11.TabIndex = 25;
-            this.label11.Text = "agregar detalle personalizado:";
+            this.label11.Text = "Agregar detalle no listado";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(809, 470);
+            this.button1.Location = new System.Drawing.Point(703, 372);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 26;
